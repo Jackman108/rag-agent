@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+react-ts/node_modules
+node-backend/node_modules
+
+react-ts/.pnp
+react-ts/.pnp.js
+node-backend/.pnp
+
+# testing
+react-ts/coverage
+
+# production
+react-ts/build
+
+# misc
+node-backend/.env.local
+
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
